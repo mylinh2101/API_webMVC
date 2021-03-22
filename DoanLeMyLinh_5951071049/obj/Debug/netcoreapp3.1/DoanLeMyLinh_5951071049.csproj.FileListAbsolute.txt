@@ -116,3 +116,4 @@ C:\Users\ACER\source\repos\webMVC\DoanLeMyLinh_5951071049\DoanLeMyLinh_595107104
 C:\Users\ACER\source\repos\webMVC\DoanLeMyLinh_5951071049\DoanLeMyLinh_5951071049\obj\Debug\netcoreapp3.1\DoanLeMyLinh_5951071049.genruntimeconfig.cache
 C:\Users\ACER\source\repos\webMVC\DoanLeMyLinh_5951071049\DoanLeMyLinh_5951071049\obj\Debug\netcoreapp3.1\Razor\Views\Home\create.cshtml.g.cs
 C:\Users\ACER\source\repos\webMVC\DoanLeMyLinh_5951071049\DoanLeMyLinh_5951071049\obj\Debug\netcoreapp3.1\Razor\Views\Home\edit.cshtml.g.cs
+C:\Users\ACER\source\repos\webMVC\DoanLeMyLinh_5951071049\DoanLeMyLinh_5951071049\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs

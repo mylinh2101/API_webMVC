@@ -95,6 +95,25 @@ namespace DoanLeMyLinh_5951071049.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        public IActionResult Delete(int id)
+        {
+            Employee emp = new Employee();
+            emp.Sr_no = id;
+            emp.flag = "getid";
+            DataSet ds = dbop.Empget(emp, out msg);
+            foreach (DataRow dr in ds.Tables[0].Rows)
+            {
+                emp.Sr_no = Convert.ToInt32(dr["Sr_no"]);
+                emp.Emp_name = dr["Emp_name"].ToString();
+                emp.City = dr["City"].ToString();
+                emp.State = dr["State"].ToString();
+                emp.Country = dr["Country"].ToString();
+                emp.Department = dr["Department"].ToString();
+            }
+            return View(emp);
+        }
+
         [HttpPost]
         public IActionResult Delete(int id, [Bind] Employee emp)
         {
